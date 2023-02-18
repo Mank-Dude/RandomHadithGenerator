@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(158, 189, 216);
+    background: url(81805.png);
+}
+
+#container {
+    background-color: antiquewhite;
+    width: 400px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #f9f1e4;
+    text-align: center;
+}
+#btn {
+    border-radius: 8px;
+    padding: 10px 24px;
+    background-color: rgb(248, 222, 188);
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color:#a98b00;
+    
+}
+
+#btn:hover {background: fixed;}
+
+#btn:active {
+    transform: none;
+}
+#output {
+    margin: 25px auto;
+    font-size: none;
+    color:rgb(255, 145, 0)
+}
